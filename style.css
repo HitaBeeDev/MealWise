@@ -306,10 +306,12 @@ html {
 .how__steps {
   box-sizing: border-box;
   margin-top: -1.5rem;
+  flex: 1;
+  flex-basis: calc(33.33% - 2rem);
 }
 
 .step__img {
-  max-width: 85%;
+  max-width: 75%;
   max-height: auto;
   border-radius: 1.5rem;
   margin: auto;
@@ -325,6 +327,27 @@ html {
   color: var(--color9);
   line-height: 1.5;
   margin: 1rem 3.5rem;
+}
+
+.how__steps {
+  flex: 1;
+  flex-basis: calc(33.33% - 2rem);
+}
+
+.step__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.step__title {
+  color: var(--color9);
+  font-size: 0.9rem;
+}
+
+.step__description {
+  margin: 0.9rem;
+  font-size: 0.75rem;
 }
 
 .meals__section {
