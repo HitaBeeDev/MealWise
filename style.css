@@ -1475,7 +1475,7 @@ html {
   }
 
   .navbar__link {
-    width: 65%;
+    width: 100%;
     font-size: 0.8rem;
     border: 0.01rem solid var(--color3);
     background-color: var(--color7);
