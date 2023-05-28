@@ -39,9 +39,9 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 3rem;
+  padding: 1rem 5rem;
   margin-bottom: 0;
-  margin: 1.5rem;
+  margin: 2rem;
 }
 
 .header__navbar {
@@ -84,9 +84,10 @@ html {
   border: 0.1rem;
   border-radius: 3rem;
   background-color: var(--color4);
-  width: 11rem;
-  height: 2.9rem;
+  width: 10rem;
+  height: 2.3rem;
   align-self: center;
+  font-size: 0.8rem;
 }
 
 .header__cta:hover {
@@ -103,8 +104,8 @@ html {
 }
 
 .home__section {
-  padding: 4rem;
-  margin-top: 4rem;
+  padding: 3rem;
+  margin-top: 2rem;
 }
 
 .home {
