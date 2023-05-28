@@ -734,7 +734,7 @@ html {
   text-align: center;
 }
 
-@media (min-width: 900px) and (max-width: 1300px) {
+@media (min-width: 900px) {
   .header {
     padding: 2.5rem 6rem;
   }
@@ -861,7 +861,7 @@ html {
   }
 
   .meals:hover .meals__details {
-    bottom: 10%;
+    bottom: 12%;
   }
 
   .meals__img {
@@ -874,7 +874,7 @@ html {
   }
 
   .meal__title {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     margin: 0.5rem 0 0 0.4rem;
   }
 
