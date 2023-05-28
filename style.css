@@ -10,6 +10,22 @@
   --color7: #edf4fd;
   --color8: #adb5bd;
   --color9: #14213d;
+  --color10: #c4b6e3;
+}
+
+html::-webkit-scrollbar {
+  width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--color7);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--color10);
+  border: 0.1px;
+  border-radius: 1rem;
+  scroll-behavior: smooth;
 }
 
 * {
