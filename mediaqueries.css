@@ -1,0 +1,929 @@
+:root {
+  --primary-color: #3a0ca3;
+  --primary-alpha-color: #f72585;
+  --secondary-color: #480ca8;
+  --scrollbar-color: #c4b6e3;
+  --background-color: #edf4fd;
+  --dark-color: #14213d;
+  --shadow-color: #adb5bd;
+  --neutral-color: #e5e5e5;
+  --white-color: #ffffff;
+}
+
+@media (min-width: 1250px) {
+  .home {
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  .featured__logos {
+    margin-top: 1.5rem;
+    gap: 4rem;
+  }
+  .reviews {
+    height: 23rem;
+  }
+
+  .pricing__card1 {
+    padding: 2rem;
+  }
+
+  .pricing__title--card1 {
+    color: var(--white-color);
+    font-size: 1.8rem;
+  }
+
+  cta__title {
+    font-size: 2.2rem;
+    margin: 3rem 0 1rem 0;
+  }
+
+  .cta__description {
+    font-size: 1rem;
+  }
+
+  .form__btn {
+    width: 70%;
+    font-size: 1rem;
+  }
+
+  .form__btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    transition: all 0.5s;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1300px) {
+  .header__navbar {
+    gap: 2rem;
+  }
+
+  .navbar__list {
+    gap: 2rem;
+  }
+
+  .navbar__link {
+    font-size: 0.7rem;
+  }
+
+  .header__logo {
+    font-size: 1.2rem;
+  }
+
+  .header__cta {
+    font-size: 0.7rem;
+    width: 9rem;
+    height: 1.9rem;
+  }
+
+  .home__title {
+    font-size: 2rem;
+  }
+
+  .home__description {
+    font-size: 1rem;
+  }
+
+  .delivered-meals__text {
+    font-size: 0.8rem;
+    margin-left: 4rem;
+  }
+
+  .featured__logos {
+    gap: 5rem;
+  }
+
+  .meals {
+    margin-top: 2rem;
+  }
+
+  .meals__details {
+    height: 5.5rem;
+  }
+
+  .meals:hover .meals__details {
+    bottom: 13%;
+  }
+
+  .meals__img {
+    max-width: 60vw;
+    max-height: 30vh;
+  }
+
+  .meals__container {
+    margin-top: -1rem;
+  }
+
+  .meal__title {
+    font-size: 0.7rem;
+    margin: 0.6rem 0 0 0.6rem;
+  }
+
+  .meal__calories {
+    color: var(--dark-color);
+    font-size: 0.7rem;
+    margin: 0.3rem 0 0 0.6rem;
+  }
+
+  .meal__profile {
+    font-size: 0.7rem;
+    margin: 0.6rem 0 0 0.6rem;
+  }
+
+  .reviews__container {
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .reviews {
+    height: 25rem;
+  }
+
+  .review__description {
+    font-size: 0.8rem;
+  }
+
+  .review__name {
+    font-size: 0.7rem;
+  }
+
+  .pricing__container {
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .pricing {
+    width: 30%;
+    height: 28rem;
+  }
+
+  .pricing__card1 {
+    padding: 1.5rem;
+  }
+
+  .pricing__title--card1 {
+    font-size: 1.4rem;
+  }
+
+  .pricing__subtitle--card1 {
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+  }
+
+  .pricing__description--card1 {
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+  }
+
+  .pricing__details-heading {
+    font-size: 1.8rem;
+    margin: 1.5rem 0 0 1.5rem;
+  }
+
+  .pricing__details-title {
+    font-size: 1.1rem;
+    margin: 1rem 0 0 1.5rem;
+  }
+
+  .pricing__details-subtitle {
+    font-size: 0.9rem;
+    margin: 0.5rem 0 0 1.5rem;
+  }
+
+  .pricing__details-list {
+    font-size: 0.8rem;
+    margin: 1rem 0.5rem 0 2rem;
+  }
+
+  .pricing__details-item {
+    margin: 0.6rem;
+  }
+
+  .pricing__link--a {
+    font-size: 1rem;
+    height: 3rem;
+  }
+
+  .cta__container {
+    width: 85%;
+    height: 30rem;
+  }
+
+  .cta__image {
+    max-width: 20rem;
+  }
+
+  .cta__form {
+    padding: 2rem;
+  }
+
+  .cta__title {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.8rem 0;
+  }
+
+  .cta__description {
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .form__fullname,
+  .form__mail,
+  .form__selector {
+    width: 100%;
+    margin: 1rem 0 0 1rem;
+    font-size: 0.6;
+  }
+
+  .form__label {
+    margin-bottom: 0.5rem;
+  }
+
+  .form__input,
+  .form__select {
+    font-size: 0.5rem;
+  }
+
+  .form__btn {
+    width: 80%;
+    font-size: 0.8rem;
+    padding: 0.6rem;
+    margin-top: 1rem;
+  }
+
+  .form__btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    transition: all 0.5s;
+  }
+
+  .footer__title {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 899px) {
+  .section {
+    padding: 1rem 3.5rem;
+    margin-top: 5rem;
+  }
+
+  .section__heading {
+    font-size: 0.8rem;
+  }
+
+  .section__title {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+  }
+
+  .header {
+    padding: 2.5rem;
+  }
+
+  .header__menu-bar {
+    font-size: 1rem;
+    display: flex;
+    left: 0;
+  }
+
+  .header__navbar {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    border-radius: 0.6rem;
+    display: none;
+    background-color: var(--background-color);
+    margin: 0;
+  }
+
+  .header__navbar.active {
+    display: block;
+  }
+
+  .navbar__list {
+    list-style: none;
+    gap: 0.2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar__link {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    margin: 0.7rem;
+    display: block;
+    text-align: center;
+  }
+
+  .header__logo {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .header__cta {
+    width: 5rem;
+    height: 1rem;
+    margin-left: auto;
+    font-size: 0.4rem;
+  }
+
+  .home {
+    margin-top: 1rem;
+  }
+
+  .home__title {
+    font-size: 2.5rem;
+  }
+
+  .home__description {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .home__img {
+    display: none;
+  }
+
+  .delivered-meals {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .delivered-meals__img {
+    margin-right: -0.6rem;
+  }
+
+  .delivered-meals__text {
+    font-size: 1rem;
+    margin: 1rem 0 0 1rem;
+  }
+
+  .delivered-meals__span {
+    color: var(--primary-alpha-color);
+  }
+
+  .featured__logos {
+    gap: 4rem;
+  }
+
+  .featured__logos--logo {
+    height: 1rem;
+  }
+
+  .how__container {
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+  }
+
+  .how__steps {
+    margin: auto;
+    margin-top: 0;
+  }
+
+  .step__img {
+    margin: 1.5rem 0.5rem;
+  }
+
+  .step__title {
+    font-size: 0.85rem;
+  }
+
+  .step__description {
+    font-size: 0.9rem;
+    margin: 0.8rem 2rem 0.5rem;
+  }
+
+  .meals__container {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .meals {
+    margin-top: 0.2rem;
+  }
+
+  .meals__details {
+    margin: 0;
+    height: 5rem;
+    width: 100%;
+  }
+
+  .meals:hover .meals__details {
+    height: 5.5rem;
+    bottom: 9%;
+  }
+
+  .meals__img {
+    max-width: 100%;
+  }
+
+  .meal__title {
+    font-size: 0.8rem;
+    margin: 0.7rem 0.3rem 0rem 0.6rem;
+  }
+
+  .meal__calories {
+    font-size: 0.7rem;
+    margin: 0.4rem 0.3rem 0rem 0.6rem;
+  }
+
+  .meal__profile {
+    font-size: 0.7rem;
+    margin: 0.4rem 0 0 1.5rem;
+  }
+
+  .all-recipes__link {
+    font-size: 0.8rem;
+  }
+
+  .reviews__container {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .reviews {
+    width: 30rem;
+    height: 15rem;
+  }
+
+  .reviews__img {
+    margin-top: 1rem;
+    width: 5rem;
+  }
+
+  .review__description {
+    font-size: 0.7rem;
+    margin: 1rem;
+  }
+
+  .review__name {
+    font-size: 0.7rem;
+  }
+
+  .pricing__container {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .pricing {
+    width: 21rem;
+    height: 34rem;
+  }
+
+  .pricing__card1 {
+    padding: 2rem;
+  }
+
+  .pricing__title--card1 {
+    font-size: 1.8rem;
+  }
+
+  .pricing__subtitle--card1 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .pricing__description--card1 {
+    font-size: 1rem;
+  }
+
+  .cta__container {
+    margin: auto;
+    width: 22rem;
+    height: 40rem;
+  }
+
+  .cta__image--container {
+    display: none;
+  }
+
+  .cta__image {
+    display: none;
+  }
+
+  .cta__form {
+    padding: 3.5rem;
+  }
+
+  .cta__title {
+    font-size: 2rem;
+    margin: 2.5rem 0 0.5rem 0;
+  }
+
+  .cta__description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .form__fullname,
+  .form__mail,
+  .form__selector {
+    margin: 0.5rem;
+  }
+
+  .form__label {
+    margin-bottom: 0.5rem;
+  }
+
+  .form__input,
+  .form__select {
+    width: 100%;
+  }
+
+  .form__btn {
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .footer__section {
+    margin-top: 3rem;
+  }
+
+  .footer__title {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+
+  .footer__description {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .footer__list {
+    margin: 1rem 0 1.5rem 0;
+    gap: 2rem;
+  }
+
+  .footer__item {
+    margin-top: 1rem;
+  }
+
+  .footer__credit {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .section {
+    padding: 0.5rem 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .section__heading {
+    font-size: 0.7rem;
+  }
+
+  .section__title {
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+  }
+
+  .header {
+    padding: 2.5rem;
+  }
+
+  .header__menu-bar {
+    font-size: 1rem;
+    display: flex;
+    left: 0;
+  }
+
+  .header__navbar {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    border-radius: 0.6rem;
+    display: none;
+    background-color: var(--background-color);
+    margin: 0;
+  }
+
+  .header__navbar.active {
+    display: block;
+  }
+
+  .navbar__list {
+    list-style: none;
+    gap: 0.2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar__link {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    margin: 0.7rem;
+    display: block;
+    text-align: center;
+  }
+
+  .header__logo {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .header__cta {
+    width: 3rem;
+    height: 0.9rem;
+    margin-left: auto;
+    font-size: 0.3rem;
+  }
+
+  .home {
+    margin-top: 3rem;
+  }
+
+  .home__title {
+    font-size: 2rem;
+  }
+
+  .home__description {
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .home__link {
+    gap: 0.5rem;
+  }
+
+  .home__link--first,
+  .home__link--second {
+    font-size: 0.7rem;
+    width: 15rem;
+    height: 2.2rem;
+  }
+
+  .home__img {
+    display: none;
+  }
+
+  .delivered-meals {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .delivered-meals__img {
+    margin-right: -0.6rem;
+  }
+
+  .delivered-meals__img {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .delivered-meals__text {
+    font-size: 0.8rem;
+    margin: 1rem 0 0 1rem;
+  }
+
+  .delivered-meals__span {
+    color: var(--primary-alpha-color);
+  }
+
+  .featured-title {
+    font-size: 0.8rem;
+  }
+
+  .featured__logos {
+    gap: 2.5rem;
+  }
+
+  .featured__logos--logo {
+    height: 1rem;
+  }
+
+  .how__container {
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+  }
+
+  .how__steps {
+    margin: auto;
+    margin-top: 0;
+  }
+
+  .step__img {
+    margin: 1.5rem 0.5rem;
+  }
+
+  .step__title {
+    font-size: 0.6rem;
+  }
+
+  .step__description {
+    font-size: 0.7rem;
+    margin: 0.4rem 2rem 0.4rem;
+  }
+
+  .meals__container {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .meals {
+    margin-top: 0.2rem;
+  }
+
+  .meals__details {
+    margin: 0;
+    height: 7rem;
+    width: 100%;
+  }
+
+  .meals:hover .meals__details {
+    height: 5.5rem;
+    bottom: 9%;
+  }
+
+  .meals__img {
+    max-width: 100%;
+  }
+
+  .meal__title {
+    font-size: 0.8rem;
+    margin: 0.7rem 0.3rem 0rem 0.6rem;
+  }
+
+  .meal__calories {
+    font-size: 0.7rem;
+    margin: 0.4rem 0.3rem 0rem 0.6rem;
+  }
+
+  .meal__profile {
+    font-size: 0.7rem;
+    margin: 0.4rem 0 0 1.5rem;
+  }
+
+  .all-recipes__link {
+    font-size: 0.8rem;
+  }
+
+  .reviews__container {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .reviews {
+    width: 30rem;
+    height: 13.5rem;
+  }
+
+  .reviews__img {
+    margin-top: 1rem;
+    width: 4rem;
+  }
+
+  .review__description {
+    font-size: 0.6rem;
+    margin: 1rem;
+  }
+
+  .review__name {
+    font-size: 0.6rem;
+  }
+
+  .pricing__container {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .pricing {
+    width: 15rem;
+    height: 28rem;
+  }
+
+  .pricing__card1 {
+    padding: 1.7rem;
+  }
+
+  .pricing__title--card1 {
+    font-size: 1.4rem;
+  }
+
+  .pricing__subtitle--card1 {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+  }
+
+  .pricing__description--card1 {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+  }
+
+  .pricing__details-heading {
+    font-size: 1.7rem;
+  }
+
+  .pricing__details-title {
+    font-size: 1rem;
+    margin: 0.5rem 0 0 2rem;
+  }
+
+  .pricing__details-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .pricing__details-list {
+    font-size: 0.8rem;
+    margin: 1rem 2rem 0 2rem;
+  }
+
+  .pricing__link--a {
+    height: 2.5rem;
+  }
+
+  .cta__container {
+    margin: auto;
+    width: 20rem;
+    height: 28rem;
+  }
+
+  .cta__image--container {
+    display: none;
+  }
+
+  .cta__image {
+    display: none;
+  }
+
+  .cta__form {
+    padding: 2rem;
+  }
+
+  .cta__title {
+    font-size: 1.5rem;
+    margin: 2.5rem 0 0.5rem 0;
+  }
+
+  .cta__description {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .form__fullname,
+  .form__mail,
+  .form__selector {
+    margin: 0;
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .form__label {
+    margin-bottom: 0.5rem;
+  }
+
+  .form__input,
+  .form__select {
+    font-size: 0.6rem;
+    width: 100%;
+  }
+
+  .form__btn {
+    width: 100%;
+    font-size: 0.7rem;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .footer__section {
+    margin-top: 3rem;
+  }
+
+  .footer__title {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .footer__description {
+    font-size: 0.6rem;
+    margin-top: 1rem;
+  }
+
+  .footer__list {
+    margin: 1rem 0 1.5rem 0;
+    gap: 1.5rem;
+  }
+
+  .footer__item {
+    margin-top: 1rem;
+  }
+
+  .footer__credit {
+    margin-bottom: 2rem;
+    font-size: 0.6rem;
+  }
+}
