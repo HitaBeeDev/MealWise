@@ -13,31 +13,50 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="icon" href="/img/favicon.png" type="image/icon" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
 
     <title>M | MealWise</title>
   </head>
 
   <body>
-    <header class="header">
+    <header class="header centered-container">
       <div id="menu-bar" class="header__menu-bar fas fa-bars"></div>
       <a href="#" class="header__logo">M | MealWise</a>
 
-      <nav class="header__navbar navbar">
-        <a href="#how_it_works" class="navbar__link">How It Works</a>
-        <a href="#meals" class="navbar__link">Meals</a>
-        <a href="#customer_reviews" class="navbar__link">Customer Reviews</a>
-        <a href="#pricing" class="navbar__link">Subscription Plans</a>
+      <nav class="header__navbar centered-container">
+        <ul class="navbar__list centered-container">
+          <li class="navbar__item">
+            <a href="#how_it_works" class="navbar__link">How It Works</a>
+          </li>
+
+          <li class="navbar__item">
+            <a href="#meals" class="navbar__link">Meals</a>
+          </li>
+
+          <li class="navbar__item">
+            <a href="#customer_reviews" class="navbar__link"
+              >Customer Reviews</a
+            >
+          </li>
+
+          <li class="navbar__item">
+            <a href="#pricing" class="navbar__link">Subscription Plans</a>
+          </li>
+        </ul>
       </nav>
 
       <div class="cta__nav">
-        <a href="#cta" class="header__cta">Get started for free</a>
+        <a href="#cta" class="header__cta centered-container"
+          >Get started for free</a
+        >
       </div>
     </header>
 
     <main>
-      <section class="home__section" id="home">
-        <div class="home">
+      <section class="home__section section" id="home">
+        <div class="home centered-container">
           <div class="home__text">
             <h1 class="home__title">
               Delicious and Nutritious: Daily Meal Delivery to Your Door
@@ -50,9 +69,13 @@
               surprise as delicious and nourishing meals arrive at your
               doorstep.
             </p>
-            <div class="home__link">
-              <a href="#pricing" class="home__link--first">Start eating well</a>
-              <a href="#how_it_works" class="home__link--second"
+            <div class="home__link centered-container">
+              <a href="#pricing" class="home__link--first centered-container"
+                >Start eating well</a
+              >
+              <a
+                href="#how_it_works"
+                class="home__link--second centered-container"
                 >Find out more &darr;</a
               >
             </div>
@@ -97,21 +120,19 @@
             </div>
           </div>
           <div class="home__img-box">
-            <picture>
-              <img
-                src="img/home.png"
-                class="home__img"
-                alt="Some photo related to healthy meals"
-              />
-            </picture>
+            <img
+              src="img/home.png"
+              class="home__img"
+              alt="Some photo related to healthy meals"
+            />
           </div>
         </div>
       </section>
 
-      <section class="featured__section">
+      <section class="featured__section section centered-container">
         <div class="featured__container">
           <h2 class="featured-title">Featured in:</h2>
-          <div class="featured__logos">
+          <div class="featured__logos centered-container">
             <img
               src="img/logos/techcrunch.png"
               alt="Techcrunch logo"
@@ -141,10 +162,10 @@
         </div>
       </section>
 
-      <section class="how__section" id="how_it_works">
+      <section class="how__section section" id="how_it_works">
         <div class="how__section--headings">
-          <h1 class="how__heading">How It Works</h1>
-          <h2 class="how__title">
+          <h1 class="how__heading section__heading">How It Works</h1>
+          <h2 class="how__title section__title">
             Three easy steps to keep you healthy every day
           </h2>
         </div>
@@ -199,15 +220,15 @@
         </div>
       </section>
 
-      <section class="meals__section" id="meals">
+      <section class="meals__section section" id="meals">
         <div class="meals__section--headings">
-          <h1 class="meals__heading">Meals</h1>
-          <h2 class="meals__title">
+          <h1 class="meals__heading section__heading">Meals</h1>
+          <h2 class="meals__title section__title">
             MealWise offers a vast selection of over 5,000 recipes to choose
             from
           </h2>
         </div>
-        <div class="meals__container">
+        <div class="meals__container centered-container">
           <div class="meals">
             <img
               src="img/meals/meal1.jpg"
@@ -267,14 +288,14 @@
         </div>
       </section>
 
-      <section class="reviews__section" id="customer_reviews">
+      <section class="reviews__section section" id="customer_reviews">
         <div class="reviews__section--headings">
-          <h1 class="reviews__heading">Customer Reviews</h1>
-          <h2 class="reviews__title">
+          <h1 class="reviews__heading section__heading">Customer Reviews</h1>
+          <h2 class="reviews__title section__title">
             Unforgettable Experiences, Try Once, Can't Go Back
           </h2>
         </div>
-        <div class="reviews__container">
+        <div class="reviews__container centered-container">
           <div class="reviews">
             <img
               src="img/reviews/review1.jpg"
@@ -283,10 +304,11 @@
             />
 
             <p class="review__description">
-              "MealWise is a game-changer! Affordable, nutritious, and
-              absolutely delicious meals delivered right to my doorstep. It's
-              like having a personal chef at my convenience. Highly
-              recommended!"
+              "MealWise offers affordable, nutritious, and delicious meals
+              delivered to your doorstep. With their carefully curated menu and
+              high-quality ingredients, each meal is a delightful and healthy
+              experience. The convenience and time-saving aspect make it a
+              game-changer!"
             </p>
             <h4 class="review__name">- Olivia Johnson</h4>
           </div>
@@ -326,15 +348,15 @@
         </div>
       </section>
 
-      <section class="pricing__section" id="pricing">
+      <section class="pricing__section section" id="pricing">
         <div class="pricing__section--headings">
-          <h1 class="pricing__heading">Subscription Plans</h1>
-          <h2 class="pricing__title">
+          <h1 class="pricing__heading section__heading">Subscription Plans</h1>
+          <h2 class="pricing__title section__title">
             Enjoying nutritious meals without straining your budget
           </h2>
         </div>
 
-        <div class="pricing__container">
+        <div class="pricing__container centered-container">
           <div class="pricing pricing__card1">
             <h1 class="pricing__title--card1">
               Nourish Your Body and Wallet with Our Affordable Meal Plans
@@ -368,6 +390,12 @@
                 <li class="pricing__details-item">
                   Free and convenient delivery
                 </li>
+                <li class="pricing__details-item">
+                  Access to weekly meal specials
+                </li>
+                <li class="pricing__details-item">
+                  Option to customize your meal plan
+                </li>
               </ul>
             </div>
             <div class="pricing__link">
@@ -396,6 +424,7 @@
                 <li class="pricing__details-item">
                   Personalized meal customization options
                 </li>
+                <li class="pricing__details-item">Priority customer support</li>
               </ul>
             </div>
             <div class="pricing__link">
@@ -405,7 +434,7 @@
         </div>
       </section>
 
-      <section class="cta__section" id="cta">
+      <section class="cta__section section" id="cta">
         <div class="cta__container">
           <div class="cta__image--container">
             <img
