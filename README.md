@@ -1,2 +1,2 @@
 # MealWise
-Fully responsive meal delivery website: MealWise
+Fully responsive meal delivery website with HTML, CSS and JavaScript
